@@ -1,0 +1,627 @@
+shop:
+  armor:
+    item: DIAMOND_CHESTPLATE
+    name: "&f装备商店"
+    order: 10
+    permission: bw.base
+    lore:
+      - "&a点我进入装备商店,购买一些\
+      装备吧!"
+    offers:
+      - reward:
+          - type: LEATHER_HELMET
+            meta:
+              ==: ItemMeta
+              meta-type: LEATHER_ARMOR
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: LEATHER_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: LEATHER_ARMOR
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_LEGGINGS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+          - type: CLAY_BRICK
+      - reward:
+          - type: CHAINMAIL_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: CHAINMAIL_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: CHAINMAIL_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: CHAINMAIL_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: CHAINMAIL_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 3
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: CHAINMAIL_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 3
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: DIAMOND_HELMET
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: DIAMOND_BOOTS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: DIAMOND_CHESTPLATE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+  swords:
+    item: DIAMOND_SWORD
+    name: "&f武器商店"
+    order: 20
+    permission: bw.base
+    lore:
+      - "&a点我进入武器商店,购买一些\
+      武器吧!"
+    offers:
+      - reward:
+          - type: BONE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§e击退骨"
+              enchants:
+                KNOCKBACK: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 10
+      - reward:
+          - type: FISHING_ROD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "皮皮虾"
+              enchants:
+                KNOCKBACK: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: GOLD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                DAMAGE_ALL: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: GOLD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                DAMAGE_ALL: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: GOLD_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                DAMAGE_ALL: 3
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: GOLD_AXE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§6狂战斧"
+              enchants:
+                DAMAGE_ALL: 5
+                KNOCKBACK: 2
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_SWORD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§b大宝剑"
+              enchants:
+                DAMAGE_ALL: 3
+                KNOCKBACK: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+  bows:
+    item: 261
+    name: "&f弓箭商店"
+    order: 30
+    permission: bw.base
+    lore:
+      - "&a点我进入弓箭商店,购买一些\
+      弓箭吧!"
+    offers:
+      - reward:
+          - type: BOW
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                ARROW_INFINITE: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: BOW
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                ARROW_DAMAGE: 1
+                ARROW_INFINITE: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: BOW
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                ARROW_DAMAGE: 2
+                ARROW_INFINITE: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: ARROW
+            amount: 1
+        price:
+          - type: CLAY_BRICK
+      - reward:
+          - type: BOW
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§c火弓"
+              enchants:
+                ARROW_KNOCKBACK: 1
+                ARROW_FIRE: 1
+                ARROW_INFINITE: 1
+        price:
+          - type: GOLD_INGOT
+            amount: 3
+  pickaxes:
+    item: DIAMOND_PICKAXE
+    name: "&f工具商店"
+    order: 40
+    permission: bw.base
+    lore:
+      - "&a点我进入工具商店,购买一些\
+      工具吧!"
+    offers:
+      - reward:
+          - type: STONE_SPADE
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_SPADE
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_SPADE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                DIG_SPEED: 3
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_PICKAXE
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_PICKAXE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                LOOT_BONUS_BLOCKS: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_PICKAXE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                LOOT_BONUS_BLOCKS: 3
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: IRON_PICKAXE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                LOOT_BONUS_BLOCKS: 5
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: DIAMOND_PICKAXE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              enchants:
+                DIG_SPEED: 3
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: STONE_AXE
+        price:
+          - type: CLAY_BRICK
+            amount: 5
+      - reward:
+          - type: IRON_AXE
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+  eat:
+    item: GRILLED_PORK
+    name: "&f食物商店"
+    order: 50
+    permission: bw.base
+    lore:
+      - "&a点我进入食物商店,购买一些\
+      食物吧!"
+    offers:
+      - reward:
+          - type: GRILLED_PORK
+            amount: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: GOLDEN_APPLE
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: BREAD
+            amount: 1
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+  blocks:
+    item: SANDSTONE
+    name: "&f方块商店"
+    order: 60
+    permission: bw.base
+    lore:
+      - "&a点我进入方块商店,购买一些\
+      方块吧!"
+    offers:
+      - reward:
+          - type: STAINED_CLAY
+            amount: 4
+            meta:
+              ==: ItemMeta
+              meta-type: LEATHER_ARMOR
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: SANDSTONE
+            amount: 4
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: GLASS
+            amount: 6
+        price:
+          - type: CLAY_BRICK
+            amount: 2
+      - reward:
+          - type: ENDER_STONE
+        price:
+          - type: CLAY_BRICK
+            amount: 30
+      - reward:
+          - type: IRON_BLOCK
+        price:
+          - type: CLAY_BRICK
+            amount: 20
+      - reward:
+          - type: GLOWSTONE
+            amount: 20
+        price:
+          - type: CLAY_BRICK
+            amount: 40
+      - reward:
+          - type: LEAVES
+        price:
+          - type: CLAY_BRICK
+            amount: 10
+  usefulstuff:
+    item: TNT
+    name: "&f杂货商店"
+    order: 70
+    permission: bw.base
+    lore:
+      - "&a点我进入杂货商店,购买一些\
+      杂货吧!"
+    offers:
+      - reward:
+          - type: CHEST
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: ENDER_CHEST
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: BLAZE_ROD
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§c援救平台"
+              lore:
+                - "§b§l在空中使用该平台"
+                - "§b§l将在脚下生成一块临时\
+            史莱姆方块平台救生!"
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: STRING
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§7陷阱"
+              lore:
+                - "§b§l将陷阱放在地上"
+                - "§b§l敌人踩中将会出现各种\
+            伤害效果!"
+        price:
+          - type: CLAY_BRICK
+            amount: 64
+      - reward:
+          - type: BRICK
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§4防护墙"
+              lore:
+                - "§b§l使用防护墙后"
+                - "§b§l将在身前生成一面5x3的墙\
+            壁!"
+        price:
+          - type: CLAY_BRICK
+            amount: 64
+      - reward:
+          - type: SULPHUR
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§f回城卷轴"
+              lore:
+                - "§b§l拿在手里右键使用"
+                - "§b§l将在6秒后传送到出生点\
+            ."
+                - "§c§l注意:移动将会取消传送\
+            !"
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: ENDER_PEARL
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§5带你飞"
+        price:
+          - type: CLAY_BRICK
+            amount: 300
+      - reward:
+          - type: COMPASS
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§a跟踪钟"
+              lore:
+                - "§b§l担心找不到敌人?"
+                - "§b§l跟踪种将指向玩家的大\
+            概位置!"
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: LADDER
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§6梯子"
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: TNT
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: "§c§lTNT"
+        price:
+          - type: IRON_INGOT
+            amount: 2
+  drinks:
+    item: POTION
+    name: "&f药水商店"
+    order: 80
+    permission: bw.base
+    lore:
+      - "&a点我进入药水商店,购买一些\
+      药水吧!"
+    offers:
+      - reward:
+          - type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: Heal 1
+              custom-effects:
+                - ==: PotionEffect
+                  effect: 6
+                  duration: 1
+                  amplifier: 0
+                  ambient: true
+                  has-particles: true
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: "§c瞬间恢复2"
+              custom-effects:
+                - ==: PotionEffect
+                  effect: 6
+                  duration: 1
+                  amplifier: 1
+                  ambient: true
+                  has-particles: true
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: "§9速度药水"
+              custom-effects:
+                - ==: PotionEffect
+                  effect: 1
+                  duration: 3600
+                  amplifier: 0
+                  ambient: true
+                  has-particles: true
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+      - reward:
+          - type: POTION
+            meta:
+              ==: ItemMeta
+              meta-type: POTION
+              display-name: "§d生命恢复药水"
+              custom-effects:
+                - ==: PotionEffect
+                  effect: 10
+                  duration: 900
+                  amplifier: 0
+                  ambient: true
+                  has-particles: true
+        price:
+          - type: CLAY_BRICK
+            amount: 1
+schema-version: 1

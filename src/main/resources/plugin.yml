@@ -1,0 +1,8 @@
+name: OneBedwars
+version: ${project.version}
+main: cc.i9mc.onebedwars.OneBedwars
+authors: [JinVan]
+depend: [NametagEdit, Vault, Nick, DanSync, GlobalPrefix, PluginChannel, Rejoin, GameUtils, WatchNMSLReport]
+commands:
+  start:
+  game:
